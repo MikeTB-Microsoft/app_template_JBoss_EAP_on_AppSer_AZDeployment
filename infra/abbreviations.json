@@ -1,5 +1,0 @@
-{
- "hubResourceGroup": "petstore_AZD_eastus",
- "webServerFarms" : "pestoreappser-",
- "webSitesAppService": "petstore"
-}
