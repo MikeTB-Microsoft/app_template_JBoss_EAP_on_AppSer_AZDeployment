@@ -4,5 +4,5 @@ name: petstore-jboss-eap
 services:
   web:
     project: ./src/jbossappser-construction/petstore-ee7
-    language: "java"
+    language: java
     host: appservice
