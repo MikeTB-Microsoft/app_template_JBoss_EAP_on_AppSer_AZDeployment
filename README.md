@@ -1,0 +1,1 @@
+# app_template_JBoss_EAP_on_AppSer_AZDeployment
