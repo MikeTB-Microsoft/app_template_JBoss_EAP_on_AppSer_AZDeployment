@@ -23,7 +23,7 @@ Tech stack:
 This is a quickstart template. It deploys the following:
 
 * Deploying Pet Store App:
-  *  *** NOTE*** if you are deplying this from a subscription and not an actual Environment, please rememeber to set the template Environment to your Resoure Group with the following command:
+  * NOTE*** if you are deplying this from a subscription and not an actual Environment, please rememeber to set the template Environment to your Resoure Group with the following command:
     - azd env set AZURE_RESOURCE_GROUP petstore_AZD_eastus
   
   * Use the following Command:
