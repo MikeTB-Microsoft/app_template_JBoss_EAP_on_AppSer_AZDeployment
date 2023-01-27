@@ -1,0 +1,23 @@
+version: "2.2"
+
+services:
+  mysql:
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+      - MYSQL_USER=petstore
+      - MYSQL_PASSWORD=petstore
+      - MYSQL_DATABASE=petstore
+    volumes:
+      - "./conf.d:/etc/mysql/conf.d:ro"
+  postgres:
+    image: postgres:14.1
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=petstore
+      - POSTGRES_USER=petstore
+      - POSTGRES_DB=petstore
