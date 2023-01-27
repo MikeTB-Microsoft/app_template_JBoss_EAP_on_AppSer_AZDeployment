@@ -1,6 +1,6 @@
-# AZD Deployment - JBoss EAP Pet Store Microservices Application Deployed to Azure App Service (AAS) 
+# AZD Deployment - JBoss EAP Pet Store Application Deployed to Azure App Service (AAS) 
 ## Description 
-In this sample app template of the Pet Store Microservices application. Each of the Application Microservices are containerized and deployed to an Azure App Service (AAS) secured by Azure Firewall
+In this sample app template of the Pet Store application.The  Application is deployed to an Azure App Service (AAS) secured by Azure Firewall
 
 ## Deploy JBoss EAP Applicaiton to Azure App Services:
 
@@ -27,7 +27,7 @@ This is a quickstart template. It deploys the following:
     - azd up 
 
   *** NOTE*** if you are deplying this from a subscription and not an actual Environment, please rememeber to set the template Environment to your Resoure Group with the following command:
-  
+
     - azd env set AZURE_RESOURCE_GROUP petstore_AZD_eastus
 
   * Use the follwoing Commands
